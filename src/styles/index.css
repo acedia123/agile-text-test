@@ -1,0 +1,40 @@
+* {
+    box-sizing: inherit;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --primary-btn: #9C69E2;
+    --sidebar-width: 320px;
+    --header-admin-height: 56px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media only screen and (max-width: 1200px) {
+     :root {
+        --sidebar-width: 0px;
+    }
+}

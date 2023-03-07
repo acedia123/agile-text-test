@@ -1,0 +1,194 @@
+.testimonials {
+    background-color: #9C69E2;
+    border-radius: 50px;
+    padding: 130px 0 60px;
+    margin-bottom: 88px;
+}
+
+.testimonials__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.testimonials-wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.carousel {
+    margin-top: 80px;
+    position: relative;
+}
+
+.carousel-card {
+    background-color: white;
+    display: flex;
+    box-shadow: 0px 20px 0px rgba(156, 105, 226, 0.3);
+    border-radius: 20px;
+    padding: 60px 0 60px 100px;
+}
+
+.carousel-card .image-wrapper {
+    width: 130px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.carousel-card .content {
+    margin-left: 40px;
+}
+
+.carousel-card .image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-card .content .name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #212353;
+}
+
+.carousel-card .content .email {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #9C69E2;
+}
+
+.carousel-card .content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    color: #4B5D68;
+    width: 556px;
+}
+
+.arrow {
+    position: absolute;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    top: 50%;
+}
+
+.--left {
+    left: -65px;
+}
+
+.--right {
+    right: -65px;
+}
+
+.list-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.list-option button {
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+@media only screen and (max-width: 970px) {
+    .testimonials {
+        padding: 80px 20px;
+        margin-bottom: 20px;
+    }
+    .carousel-card {
+        padding: 60px;
+    }
+    .carousel-card {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .carousel-card .content {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .testimonials {
+        padding: 50px 20px;
+        margin-bottom: 20px;
+    }
+    .list-option {
+        margin: 60px 0 0;
+    }
+    .arrow {
+        display: none;
+    }
+    .testimonials-wrapper {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 970px) {
+    .testimonials {
+        padding: 80px 20px;
+        margin-bottom: 20px;
+    }
+    .carousel-card {
+        padding: 60px;
+    }
+    .carousel-card .content p {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .testimonials {
+        padding: 30px 20px;
+        margin-bottom: 20px;
+    }
+    .testimonials-wrapper {
+        width: 100%;
+        margin: 0;
+    }
+    .carousel-card .image-wrapper {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .list-option {
+        margin: 20px 0;
+    }
+    .content {
+        width: 100%;
+    }
+    .carousel-card .content p {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {}
+
+@media only screen and (min-width: 1200px) {}

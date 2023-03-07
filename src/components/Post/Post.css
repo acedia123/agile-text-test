@@ -1,0 +1,144 @@
+.post {
+    width: 100%;
+}
+
+.content-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content-header button {
+    height: 40px;
+}
+
+.content-header input {
+    max-width: 200px;
+    min-width: 200px;
+    padding: 10px 34px;
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    outline: none;
+    font-size: 14px;
+}
+
+.content-header select {
+    margin-left: 10px;
+    min-width: 200px;
+    padding: 8px 34px;
+    background: #FDFDFD;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+.content-header__actions {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    /* .content-header__actions {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .content-header__actions select {
+        margin: 0;
+    } */
+}
+
+@media only screen and (max-width: 600px) {
+    .content-header {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .content-header__actions {
+        width: 100%;
+    }
+    .content-header button {
+        margin-right: 0;
+        width: 100%;
+    }
+    .content-header__actions input,
+    .content-header__actions select {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+.post__table {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+.post__table table td {
+    text-align: center;
+}
+
+.post__table table td:odd {
+    text-align: center;
+}
+
+thead {
+    background-color: #68C9BA;
+    height: 50px;
+}
+
+td {
+    min-width: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-action {
+    text-align: center;
+}
+
+.table-action button {
+    background-color: transparent;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.table-action button:hover {
+    background-color: #e6e6e6;
+}
+
+.table-action button img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group .form-input {
+    height: 40px;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.form-select {
+    height: 40px;
+    padding: 5px 10px;
+    outline: none;
+    font-size: 14px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border-color: #000000;
+}
